@@ -1,0 +1,503 @@
+*
+{
+    box-sizing: border-box;
+}
+nav > a
+{
+    color: #ff305b !important;
+}
+nav ul li
+{
+    margin-left: 10px;
+}
+nav ul li a
+{
+    color: #fff !important;
+}
+nav ul li a:hover 
+{
+    color: #ff305b !important;
+}
+.home
+{
+    height: 650px;
+    background-image: url('../images/slider-01.jpg');
+    background-size: 100% 100%;
+
+}
+.home .back
+{
+    background-color: rgba(0,0,0,0.6) ;
+    height: 100%;
+}
+.home .caption
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.home .caption h2,h3
+{
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+}
+.home .caption h2
+{
+    font-weight: bold;
+}
+.home .caption h1
+{
+    font-size: 4em;
+    color: #ff305b;
+    font-weight: 700;
+}
+.home .caption h3:after
+{
+    content: " Designer |";
+    animation-name: design;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite ;
+    
+}
+
+@keyframes design
+{
+    0%{content: "Designer |"}
+    5%{content: "Designe |"}
+    10%{content: "Design |"}
+    15%{content: "Design |"}
+    20%{content: "Desig |"}
+    25%{content: "Desi |"}
+    30%{content: "Des |"}
+    35%{content: "De |"}
+    40%{content: "D |"}
+    45%{content: " |"}
+    50%{content: "|"}
+    55%{content: " |"}
+    60%{content: "D |"}
+    65%{content: "De |"}
+    70%{content: "Dev |"}
+    75%{content: "Deve |"}
+    80%{content: "Devel |"}
+    85%{content: "Develo |"}
+    90%{content: "Develop |"}
+    95%{content: "Develope |"}
+    100%{content: "Developer |"}
+}
+.hello 
+{
+    padding: 100px 0;
+}
+.hello .photo-layout
+{
+    border: solid 13px #000;
+    width: 70%;
+    border-radius: 3% 3%;
+ 
+}
+.hello .photo-layout .photo
+{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    overflow: hidden;
+}
+.hello .photo-layout .photo .photo-info
+{
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    transition:all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello .photo-layout .photo:hover .photo-info
+{
+    top: 0px;
+}
+.hello .photo-layout .photo .photo-info i
+{
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.hello .photo-layout .photo .photo-info i:hover
+{
+    color: #ff305b;
+}
+.hello .info h1
+{
+    font-size: 3em;
+    
+    position: relative;
+}
+.hello .info h1:before
+{
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left : -10px;
+    width: 6px;
+    height: 35px;
+    background-color: #ff305b;
+}
+.hello .info p
+{
+    color: #999;
+    line-height: 1.7em;
+}
+.hello .info hr
+{
+    margin: 20px 0px;
+    border-bottom: dotted 3px #999;
+}
+.hello .info .information
+{
+    line-height: 2em;
+}
+.hello .info button
+{
+    background-color: #ff305b !important;
+    padding-bottom: 10px !important;
+    margin-right: 20px !important;
+    color: #fff;
+}
+.hello .info button:hover
+{
+    background-color:#ac2e18 !important;
+}
+.services 
+{
+    background-color: #f1f1f1;
+    padding: 30px 0px 10px;
+    
+}
+.services h1
+{
+    padding: 100px;
+    position: relative;
+}
+.services h1::before
+{
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.services h1::after
+{
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.services .service
+{
+    padding: 30px 10px;
+    margin-top: 30px;
+}
+.services .service h3
+{
+    margin: 20px 0px;
+    color: #000;
+    font-size: 25px;
+}
+.services .service i
+{
+    color: #ff305b;
+    
+}
+.services .service:hover
+{
+    background-color: #fff;
+}
+.services .service:hover i
+{
+    transform: scale(2.4);
+}
+.portfolio
+{
+    text-align: center !important;
+    padding: 100px 0px;
+}
+.portfolio h1
+{
+    position: relative;
+    padding: 50px;
+}
+.portfolio h1::before
+{
+    content: "";
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.portfolio h1::after
+{
+    content: "";
+    position: absolute;
+    top: 75%;
+    left: 46%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.portfolio .navs
+{
+    width: 35%;
+    margin: auto;
+}
+.portfolio .nav-pills
+{
+    width: 35%;
+    margin:auto;
+}
+.portfolio .nav-link
+{
+    color: #000 !important;
+    margin: 15px;
+    text-decoration: none;
+}
+.portfolio .nav-pills .active
+{
+    background-color: #ff305b;
+}
+.portfolio .photo
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.portfolio .photo .photo-layout
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio .photo:hover .photo-layout
+{
+    opacity: 1;
+}
+.portfolio .photo .photo-layout i
+{
+    color: #ff305b;
+    font-size: 30px;
+}
+.rating
+{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 100px 20px;
+}
+.rating h2
+{
+    margin: 20px;
+}
+.rating i
+{
+    color: #ff305b;
+    font-size: 25px;
+}
+.feedback
+{
+    padding: 30px;
+    text-align: center;
+}
+.feedback h1
+{
+    padding-bottom: 50px;
+}
+.feedback .content
+{
+    background-color: #f1f1f1;
+    text-align: left;
+    width: 80%;
+    padding: 50px 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.feedback  .content .fa-star
+{
+    color: #f1c30d;
+}
+
+.feedback .content img
+{
+    border-radius: 50% 50%;
+}
+.feedback .content .photo
+{
+    z-index: 1;
+
+}
+.feedback .content .back
+{
+    height: 300px;
+    width:200px;
+    background-color: #ff305b;
+    position: absolute;
+    top: -120px;
+    left: -80px;
+    transform: rotate(45deg);
+}
+.blogs
+{
+    background-color: #f1f1f1;
+    padding: 100px 0px;
+    text-align: center;
+}
+.blogs h1
+{
+    margin-bottom: 60px;
+    position: relative;
+    padding: 50px;
+}
+.blogs h1::before
+{
+    content: "";
+    position: absolute;
+    bottom: 15%;
+    left: 46%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.blogs h1::after
+{
+    content: "";
+    position: absolute;
+    bottom: 10%;
+    left: 46%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.blogs .blog
+{
+    background-color:#Fff;
+    padding: 10px;
+    text-align: left;
+}
+.blogs .blog h2
+{
+    font-size: 25px;
+}
+.blogs .blog a 
+{
+    text-decoration: none;
+    color: #000;
+
+}
+.blogs .blog a:hover 
+{
+    color: #ff305b;
+    
+}
+.blogs .blog h6,p
+{
+    color: #999;
+    margin-bottom: 10px;
+}
+.contact
+{
+    padding: 100px 20px;
+    
+    text-align: center;
+}
+.contact h1
+{
+    margin: auto;
+    width: 50%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #ff305b;
+    position: relative;
+}
+.contact h1::before
+{
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 43%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.contact h1::after
+{
+    content: "";
+    position: absolute;
+    top: 95%;
+    left: 43%;
+    width: 100px;
+    height: 1px;
+    background-color: #ff305b;
+}
+.contact input,textarea
+{
+    border: solid 2px #000;
+}
+.contact button
+{
+    background-color: #ff305b;
+    padding: 5px 20px;
+    color: #fff;
+}
+.contact button:hover
+{
+    background-color: #ac2e18;
+}
+.foot 
+{
+    padding: 30px;
+    text-align: center;
+    background-color: #333;
+    font-size: 22px;
+    
+}
+.foot i
+{
+    margin: 20px 5px;
+    font-size: 25px;
+    color: #fff;
+}
+.foot i:hover
+{
+    color: #ff305b;
+}
+.foot p
+{
+    color: #fff;
+    margin-top: 10px;
+}
+.foot p a
+{
+    color: #ff305b;
+}

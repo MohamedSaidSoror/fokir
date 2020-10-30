@@ -1,225 +1,415 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    </head>
-    <body>
-        <div class="home">
-            <div class="layer">
-                <div class="nav">
-                    <ul>
-                        <li class="logo"><a href="#">Fokir</a></li>
-                        <div><li class="hom"><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Testimonial</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </div>
-                    </ul>
-                    <div class="clr"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fokir</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="home">
+        <div class="back">
+
+            <nav class="navbar navbar-expand-lg navbar-light pr-5 pl-5">
+                <a class="navbar-brand" href="#">Fokir</a>
+                
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
                 </div>
-                <div class="caption">
-                    <h3>Hello i'm</h3>
-                    <h1>ALEX SMITH</h1>
-                    <p>Professional Web <span>Designer |</span></p>
-                </div>
+            </nav>
+
+            <div class="caption">
+                <h2>Hello i'm</h2>
+                <h1>ALEX SMITH</h1>
+                <h3>Professional Web </h3>
             </div>
         </div>
-        <div class="hello">
-            <div class="photo">
-                <div class="pict"><img src="img/profile.jpg"></div>           
-                <div class="ic">
-                    <div class="ico">
-                        <a href="#"><i class="fab fa-facebook"style="font-family: fontawesome"></i></a>
-                        <a href="#"><i class="fab fa-google"style="font-family: fontawesome"></i></a>
-                        <a href="#"><i class="fab fa-twitter"style="font-family: fontawesome"></i></a>
-                        <a href="#"><i class="fas fa-angle-up"style="font-family: fontawesome"></i></a>
-                        <div class-"clr"></div>
+    </section>
+    <section class="hello" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="photo-layout">
+                        <div class="photo">
+                            <img class="img-fluid" src="images/profile.jpg" alt="">
+                            <div class="photo-info">
+                                
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-google"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <h1>Hello,</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <hr>
+                        <div class="row information mb-5">
+                            <div class="col-md-7">
+                                Name : <span>Rdam smith</span>
+                            </div>
+                            <div class="col-md-5">
+                                Job Title : <span>UI/UX Designe </span>
+                            </div>
+                            <div class="col-md-7">
+                                
+                                Age :  <span>26 Year</span>
+                            </div>
+                            <div class="col-md-5">
+                                Location : <span>United States, US</span>
+                            </div>
+                            <div class="col-md-7">
+                                Freelance : <span>Available</span>
+                            </div>
+                            <div class="col-md-5">
+                                E-mail : <span><a href="#">Rdam@gmail.com</a></span>
+                            </div> 
+                        </div>
+                        <button class="btn">Download CV <i class="fa fa-download"></i></button>
+                        <button class="btn">Hire me <i class="fa fa-paper-plane"></i></button>
+
                     </div>
                 </div>
             </div>
-            <div class="pers">
-                <h1>HELLO,</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                <div class="info">
-                    <li>Name:<span>Rdam smith</span></li>
-                    <li>Job Title:<span>UI/UX Designer</span></li>
-                    <li>Age:<span>26 Year</span></li>
-                    <li>Location:<span>United States, US</span></li>
-                    <li>Freelance:<span>Available</span></li>
-                    <li>E-mail:<a href="#">Nadia420@gmail.com</a></li>
-                    <div class="clr"></div>
-                </div>
-                <button><a href="#">Download CV<i class="fas fa-download"style="font-family: fontawesome;margin-left: 10px;"></i></a></button>
-                <button><a href="#">Hire Me<i class="fa fa-paper-plane"style="font-family: fontawesome;margin-left: 10px;"></i></a></button>
-                <div class="clr"></div>
-            </div>
         </div>
-        <div class="services">
-            <h1>Our Services</h1>
-            <div class="service">
-                <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                <h3>UI/UX DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
-            </div>
-            <div class="service">
-                <i class="far fa-code"style="font-family: fontawesome"></i>
-                <h3>APP DEVELOPMENT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
-            </div>
-            <div class="service">
-                <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                <h3>PRODUCT DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
-            </div>
-            <div class="service">
-                <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                <h3>UI/UX DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
-            </div>
-            <div class="clr"></div>
-        </div>
-        <div class="portfolio">
-            <h1>Our Portfolio</h1>
-            <a href="#">All</a>
-            <a href="#">GRAPHIC</a>
-            <a href="#">WEB DESIGN</a>
-            <a href="#">BRANDING</a>
-            <div class="pictures">
-                <div class="photo">
-                    <a href="#"><img src="img/7.jpg"><div>
-                        <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                    </div></a>
-                    
+    </section>
+    <section class="services text-center mt-5" id="services">
+        <h1>Our Services</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fab fa-facebook"></i>
+                        <h3>UI/UX DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
                 </div>
-                <div class="photo">
-                    <a href="#"><img src="img/2.jpg"><div>
-                        <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                    </div></a>
-                    
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fa fa-code"></i>
+                        <h3>APP DEVELOPMENT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
                 </div>
-                <div class="photo">
-                    <a href="#"><img src="img/8.jpg"><div>
-                        <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                    </div></a>
-                    
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fa fa-code"></i>
+                        <h3>PRODUCT DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
                 </div>
-                <div class="photo">
-                    <a href="#"><img src="img/4.jpg"><div>
-                        <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                    </div></a>
-                    
-                </div>
-                <div class="photo">
-                    <a href="#"><img src="img/5.jpg"><div>
-                        <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                    </div></a>
-                    
-                </div>
-                <div class="photo">
-                    <a href="#"><img src="img/6.jpg"><div>
-                        <i class="fab fa-facebook"style="font-family: fontawesome"></i>
-                    </div></a>
-                    
-                </div>
-                <div class="clr"></div>
-            </div>
-           
-        </div>
-        <div class="counts">
-                <div class="count">
-                    <i class="fa fa-users"style="font-family: fontawesome"></i>
-                    <h1>200</h1>
-                    <p>Team members</p>
-                </div>
-                <div class="count">
-                    <i class="fab fa-files-o"style="font-family: fontawesome"></i>
-                    <h1>345</h1>
-                    <p>Complete Projects</p>
-                </div>
-                <div class="count">
-                    <i class="fab fa-cloud-download"style="font-family: fontawesome"></i>
-                    <h1>1800</h1>
-                    <p>Files Downloaded</p>
-                </div>
-                <div class="count">
-                    <i class="fa fa-coffee"style="font-family: fontawesome"></i>
-                    <h1>1200</h1>
-                    <p>Lines Of Code</p>
-                 </div>   
-             <div class="clr"></div>   
-        </div>
-        <div class="client">
-            <h1>Client's Feedback</h1>
-            <div class="info">
-                <img src="img/9.jpg">
-                <div class="caption">
-                    <h2>Alex ander</h2>
-                    <a href="#"><i class="fa fa-map-marker"style="font-family: fontawesome"></i>United</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibusLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibusLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
-                    <i class="fa fa-star"style="font-family: fontawesome"></i>
-                    <i class="fa fa-star"style="font-family: fontawesome"></i>
-                    <i class="fa fa-star"style="font-family: fontawesome"></i>
-                    <i class="fa fa-star"style="font-family: fontawesome"></i>
-                    <i class="fa fa-star-o"style="font-family: fontawesome"></i>
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fab fa-facebook"></i>
+                        <h3>UI/UX DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="blog">
-            <h1>Our Blog</h1>
-            <div class="blo">
-                <a href="#"><img src="img/1.jpg"></a>
-                <div><p>23 November, 2015</p>
-                <h2><a href="#">Web Design Blog Post</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
-                <button><h3><a href="#">READ MORE <i class="fa fa-long-arrow-right"style="font-family: fontawesome"> </i></a></h3></button></div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h1>Our Portfolio</h1>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Graphic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Web design</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-branding-tab" data-toggle="pill" href="#pills-branding" role="tab" aria-controls="pills-branding" aria-selected="false">Branding</a>
+              </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/2.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"> <i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/5.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/4.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/7.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/5.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/6.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
             </div>
-            <div class="blo">
-                <a href="#"><iframe src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed"></iframe></a>
-                <div><p>20 April, 2018</p>
-                <h2><a href="#">Development Blog Post</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
-                <button><h3><a href="#">READ MORE <i class="fa fa-long-arrow-right"style="font-family: fontawesome"> </i> </a></h3></button></div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/6.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"> <i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/7.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/2.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </div>
-            <div class="blo">
-                <a href="#"><img src="img/3.jpg"></a>
-                <div><p>17 May, 2017</p>
-                <h2><a href="#">Full Width Blog Post</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
-                <button><h3><a href="#">READ MORE <i class="fa fa-long-arrow-right"style="font-family: fontawesome"> </i> </a></h3></button></div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/5.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/4.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
             </div>
-            <div class="clr"></div>
+            <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="photo">
+                                <img class = "img-fluid" src="images/6.jpg" alt="">                           
+                                <div class="photo-layout">
+                                    <a href="#"> <i class="fab fa-facebook"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+
+            </div>
+          </div>
+        
+    </section>
+
+    <section class="rating" id="testmonial">
+            <div class="row">
+                <div class="col-md-3">
+                    <i class="fa fa-users"></i>
+                    <h2>345</h2>
+                    <h6>Complete Projects</h6>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-users"></i>
+                    <h2>200</h2>
+                    <h6>Team members</h6>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-download"></i>
+                    <h2>1800</h2>
+                    <h6>Files Downloaded</h6>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-coffee"></i>
+                    <h2>1200</h2>
+                    <h6>Lines Of Code</h6>
+                </div>
+            </div>
+    </section>
+
+    <section class="feedback">
+        <h1>Client's Feedback</h1>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-3 photo">
+                        <img src="images/9.jpg" class="img-fluid img-circle img-rounded" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Alex ander</h2>
+                        <a href="#"><i class="fa fa-map-marker"></i>Untitled</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibusLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibusLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="back"></div>
+            </div>
         </div>
-        <div class="contact">
-            <h1>Contact Us</h1>
-            <div class="name">
-                <form>
-                    <input type="text" placeholder="Name">
-                    <div class="email"><input type="text" placeholder="Email"></div>
-                </form>
-                <div class="clr"></div>
+    </section>
+    <section class="blogs" id="blog">
+        <h1>Our Blog</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#"><img src="images/1.jpg" class="img-fluid"  alt=""></a>
+                    <div class="blog">
+                        <h6>23 November, 2015</h6>
+                        <a href="#"><h2>Web Design Blog Post</h2></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+                        <a href="#">Learn More <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img src="images/3.jpg" class="img-fluid"  alt=""></a>
+                    <div class="blog">
+                        <h6>23 November, 2015</h6>
+                        <a href="#"><h2>Development Blog Post</h2></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+                        <a href="#">Learn More <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img src="images/1.jpg" class="img-fluid"  alt=""></a>
+                    <div class="blog">                       
+                        <h6>23 November, 2015</h6>
+                        <a href="#"><h2>Full Width Blog Post</h2></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+                        <a href="#">Learn More <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="sub">
-                <form>
-                    <input type="text" placeholder="Subject">
-                    <textarea rows="4" placeholder="Message for me"></textarea>
-                </form>
-            </div>
-            <button><a href="#">SEND MESSAGE</a></button>
-            <div class="clr"></div>
         </div>
-        <div class="foot">
-            <div class="icon"><a href="#"><i class="fab fa-facebook"style="font-family:             fontawesome"></i></a>
-                <a href="#"><i class="fab fa-google"style="font-family: fontawesome"></i></a>
-                <a href="#"><i class="fab fa-twitter"style="font-family: fontawesome"></i></a>
-                <a href="#"><i class="fa fa-github"style="font-family: fontawesome"></i></a>
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <form action="" class="w-50 m-auto text-left">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Name" class="form-control w-50 float-left">
             </div>
-            <p>Copy Right 2018 © By <a href="#">Theme-fair </a>All Rights Reserved</p>
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Email" class="form-control w-50 float-left mb-2">
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject" class="form-control mt-5 ">
+            </div>
+            <div class="form-group">
+                <textarea name="message" id="" cols="15" rows="5" placeholder="Message For Me" class="form-control mt-5"></textarea>
+            </div>
+            <button type="submit" class="btn mt-4">SEND MESSAGE</button>
+        </form>
+    </section>
+    <footer class="foot">
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
         </div>
-    </body>
+        <p>Copy Right 2018 © By <a href="#">Theme-fair</a> All Rights Reserved</p>
+
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
